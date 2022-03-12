@@ -16,9 +16,10 @@
 	<form action="Script.php" method="post">
 		<p>Seu nome: <input type="text" name="nome" /></p>
 		<p>Sua idade: <input type="text" name="idade" /></p>
-		<p><input type="submit" value="Enviar dados do comperidor " ></p>
-
+		<p><input type="submit" value="Enviar dados do comperidor" ></p>
+        
 	</form> 
+
 
 </body>
 </html>
