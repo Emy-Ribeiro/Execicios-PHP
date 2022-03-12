@@ -1,44 +1,17 @@
-<?php
- 
-$categorias = [];
-$categorias[] = 'infantil';
-$categorias[] = 'adolescente';
-$categorias[] = 'adulto';
-// print_r($categorias);
+<!DOCTYPE html>
+<html>
 
-$nome = 'Emilly';
-$idade = 18;
+<head>
+	<meta charset="utf-8">
+	<title>Formulário de inscrição</title>
+	<meta name="author" content="">
+	<meta name="description" content="">
+	<meta name="viewpoint" content="width-device-width, initial-scale=1">
+</head>
+<body>
 
-// var_dump($nome);
-// var_dump($idade);
-
-
-if ($idade >= 6 && $idade <= 12) {
-     for ($i=0; $i <= count($categorias); $i++)
-     {
-     	if($categorias[$i] == 'infantil')
-     		echo "A nadadora ".$nome." compete na categoria infantil";
-     }
-}
-
-else if ($idade >= 13 && $idade <= 18) {
-	for ($i=0; $i <= count($categorias); $i++)
-     {
-     	if($categorias[$i] == 'adolescente')
-     		echo "A nadadora ".$nome." compete na categoria adolescente";
-     }
-
-}
-
-else { 
-    for ($i=0; $i <= count($categorias); $i++)
-     {
-     	if($categorias[$i] == 'adulto')
-     		echo "A nadadora ".$nome." compete na categoria adulto";
-     }
-}
-
-
+</body>
+</html>
 
 
 
